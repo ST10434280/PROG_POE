@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "sender": "Heather ",
+    "content": "Hello there!"
+  },
+  {
+    "id": 1,
+    "sender": "HEATHER",
+    "content": "HELLLOOOOOO"
+  },
+  {
+    "id": 1,
+    "sender": "hEATHER",
+    "content": "HELLO "
+  }
+]
