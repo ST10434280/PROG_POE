@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class Main {
+public class Main {                            /* Joyce farrell, 2023 */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         MessageStore store = new MessageStore();
 
-        while (true) {
+        while (true) {                                /* Joyce farrell, 2023 */
             System.out.println("\n--- QuickChat Menu ---");
             System.out.println("1. Send a message");
             System.out.println("2. View all messages");
@@ -15,7 +15,7 @@ public class Main {
 
             String option = scanner.nextLine();
 
-            switch (option) {
+            switch (option) {                        /* Joyce farrell, 2023 */
                 case "1":
                     System.out.print("Enter your name: ");
                     String sender = scanner.nextLine();
