@@ -1,17 +1,17 @@
 import java.util.regex.*;
 
 public class Login {
-    private String username;
+    private String username;            /* Joyce farrell, 2023 */
     private String password;
     private String phone;
 
-    public Login(String username, String password, String phone) {
+    public Login(String username, String password, String phone) {        /* Joyce farrell, 2023 */
         this.username = username;
         this.password = password;
         this.phone = phone;
     }
 
-    public boolean checkUserName() {
+    public boolean checkUserName() {                                /* Joyce farrell, 2023 */
         return username.contains("_") && username.length() <= 5;
     }
 
@@ -22,7 +22,7 @@ public class Login {
                password.matches(".*[!@#$%^&*()_+\\-=\\[\\]{};':\"\\\\|,.<>\\/?].*");
     }
 
-    public boolean checkCellPhoneNumber() {
+    public boolean checkCellPhoneNumber() {                                            /* Joyce farrell, 2023 */
         return phone.matches("^\\+[0-9]{9,10}$");
     }
 
